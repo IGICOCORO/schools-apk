@@ -36,7 +36,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:hint="username"
-                    android:drawableEnd="@drawable/ic_user"
                     android:drawableRight="@drawable/ic_user" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -49,7 +48,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:autofillHints=""
-                    android:drawableEnd="@drawable/ic_password"
                     android:hint="Password"
                     android:inputType="textPassword"
                     android:drawableRight="@drawable/ic_password" />
@@ -58,9 +56,9 @@
                 android:id="@+id/btn_login"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:background="#fff"
+                android:background="@drawable/material_button_rounded"
                 android:text="login"
-                android:textColor="#000"
+                android:textColor="#fff"
                 android:layout_gravity="end|right"/>
             <ProgressBar
                 android:id="@+id/login_progressBar"
