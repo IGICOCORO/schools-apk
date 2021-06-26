@@ -12,14 +12,14 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="bi.hogi.schools_apk.Fragments.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_teacher"
+        android:name="bi.hogi.schools_apk.Fragments.TeacherFragment"
+        android:label="@string/menu_teacher"
+        tools:layout="@layout/fragment_teacher" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="bi.hogi.schools_apk.Fragments.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_attendance"
+        android:name="bi.hogi.schools_apk.Fragments.AttendanceFragment"
+        android:label="@string/menu_attendance"
+        tools:layout="@layout/fragment_attendance" />
 </navigation>

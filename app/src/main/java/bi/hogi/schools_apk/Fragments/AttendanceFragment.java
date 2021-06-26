@@ -12,12 +12,12 @@ import androidx.fragment.app.Fragment;
 
 import bi.hogi.schools_apk.R;
 
-public class SlideshowFragment extends Fragment {
+public class AttendanceFragment extends Fragment {
 
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_slideshow, container, false);
+        View view = inflater.inflate(R.layout.fragment_attendance, container, false);
         return view;
     }
 }
